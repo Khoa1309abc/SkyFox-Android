@@ -102,5 +102,7 @@ test_artifacts/
 manifest.json
 
 # Bỏ qua toàn bộ thư mục ngôn ngữ
-app/src/main/res/values/
-app/src/main/res/values-*/
+/app/src/main/res/values/
+/app/src/main/res/values-*/
+
+/app/src/main/java/net/waterfox/android/settings/SupportUtils.kt
