@@ -405,7 +405,6 @@ dependencies {
     implementation Deps.mozilla_lib_push_firebase
     implementation Deps.mozilla_lib_state
     implementation Deps.mozilla_lib_dataprotect
-    debugImplementation Deps.leakcanary
 
     implementation Deps.androidx_compose_ui
     implementation Deps.androidx_compose_ui_tooling
