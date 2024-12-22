@@ -1,16 +1,26 @@
 {
   "default": {
     "searchDefault": "DuckDuckGo",
-    "searchOrder": ["DuckDuckGo", "Brave", "Startpage", "Mojeek", "Google", "Bing"],
+    "searchOrder": ["DuckDuckGo", "Brave", "Startpage", "Mojeek", "Google", "Bing", "You.com"],
     "visibleDefaultEngines": [
       "ddg",
       "brave",
       "startpage",
       "mojeek",
       "google",
-      "bing"
+      "bing",
+      "you"
     ]
+  },
+  "categories": {
+    "traditional": {
+      "engines": ["DuckDuckGo", "Brave", "Startpage", "Mojeek", "Google", "Bing"]
+    },
+    "ai": {
+      "engines": ["You.com"]
+    }
   },
   "regionOverrides": {},
   "locales": {}
 }
+
