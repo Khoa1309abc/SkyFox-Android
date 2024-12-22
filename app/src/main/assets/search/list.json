@@ -1,9 +1,13 @@
 {
   "default": {
-    "searchDefault": "Startpage",
-    "searchOrder": ["Startpage", "Mojeek", "Bing", "DuckDuckGo", "Google"],
+    "searchDefault": "Google",
+    "searchOrder": ["Google", "Bing", "DuckDuckGo", "Startpage", "Mojeek"],
     "visibleDefaultEngines": [
-      "bing", "ddg", "google", "mojeek", "startpage"
+      "google",
+      "bing",
+      "ddg",
+      "startpage",
+      "mojeek"
     ]
   },
   "regionOverrides": {},
