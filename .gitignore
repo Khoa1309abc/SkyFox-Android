@@ -100,3 +100,7 @@ test_artifacts/
 
 # Web extensions: manifest.json files are generated
 manifest.json
+
+# Bỏ qua toàn bộ thư mục ngôn ngữ
+app/src/main/res/values/
+app/src/main/res/values-*/
