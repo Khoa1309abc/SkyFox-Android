@@ -61,7 +61,7 @@ object SupportUtils {
         val escapedTopic = getEncodedTopicUTF8(topic.topicStr)
         // Remove the whitespace so a search is not triggered:
         val osTarget = "android"
-        return "https://www.waterfox.net/docs/support/$osTarget/$escapedTopic"
+        return "https://snaprz.org/docs/support/$osTarget/$escapedTopic"
     }
 
     /**
@@ -71,7 +71,7 @@ object SupportUtils {
     fun getGenericSumoURLForTopic(topic: SumoTopic, locale: Locale = Locale.getDefault()): String {
         val escapedTopic = getEncodedTopicUTF8(topic.topicStr)
         val osTarget = "android"
-        return "https://www.waterfox.net/docs/support/$osTarget/$escapedTopic"
+        return "https://snaprz.org/docs/support/$osTarget/$escapedTopic"
     }
 
     fun getWaterfoxAccountSumoUrl(): String {
@@ -81,7 +81,7 @@ object SupportUtils {
     fun getMozillaPageUrl(page: MozillaPage, locale: Locale = Locale.getDefault()): String {
         val path = page.path
         val langTag = getLanguageTag(locale)
-        return "https://www.waterfox.net/docs/$path"
+        return "https://snaprz.org/docs/$path"
     }
 
     fun createCustomTabIntent(context: Context, url: String): Intent = CustomTabsIntent.Builder()
