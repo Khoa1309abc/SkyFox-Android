@@ -1,6 +1,6 @@
 # Crash Reporting
 
-Waterfox for Android uses a few libraries for crash and exception reporting. This kind of reporting gives Mozilla invaluable insight as to why Waterfox for Android crashes or incorrectly behaves. It is one of the key methods we use to improve the product in terms of stability.
+SkyFox for Android uses a few libraries for crash and exception reporting. This kind of reporting gives Mozilla invaluable insight as to why Waterfox for Android crashes or incorrectly behaves. It is one of the key methods we use to improve the product in terms of stability.
 
 This page documents the types of crash reporting, how the various parts interact, and what kind of data is sent back to Waterfox Project.
 
