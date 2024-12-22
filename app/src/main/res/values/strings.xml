@@ -1775,6 +1775,6 @@
     <!-- Content description for privacy content close button -->
     <string name="privacy_content_close_button_content_description">Close</string>
 
-    <string name="waterfox_suggest_header">Waterfox Suggest</string>
+    <string name="waterfox_suggest_header">SkyFox Suggest</string>
 
 </resources>
