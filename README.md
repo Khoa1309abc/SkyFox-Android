@@ -1,6 +1,6 @@
 # SkyFox for Android
 
-The all-new Waterfox for Android browser is based on [GeckoView](https://mozilla.github.io/geckoview/) and [Mozilla Android Components](https://mozac.org/).
+The all-new Skyfox for Android browser is based on [GeckoView](https://mozilla.github.io/geckoview/) and [Mozilla Android Components](https://mozac.org/).
 
 ## License
 
