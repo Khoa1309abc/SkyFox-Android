@@ -238,6 +238,10 @@ class SettingsFragment : PreferenceFragmentCompat() {
             resources.getString(R.string.pref_key_language) -> {
                 SettingsFragmentDirections.actionSettingsFragmentToLocaleSettingsFragment()
             }
+            resources.getString(R.string.pref_key_translation) -> {
+                Translations.action.record(Translations.ActionExtra("global_settings_from_preferences"))
+                SettingsFragmentDirections.actionSettingsFragmentToTranslationsSettingsFragment()
+            }
             resources.getString(R.string.pref_key_addons) -> {
                 SettingsFragmentDirections.actionSettingsFragmentToAddonsFragment()
             }
